@@ -219,3 +219,15 @@ margin-left:7px;
     #nowPlay span#npAction { display:none; }
     #nowPlay span#npTitle { display:block; text-align:center; width:100%; }
 }
+/* ====================== */
+/* Custom Buttons Styling */
+/* ====================== */
+#btnRepeat {
+  font-size: 1.8rem;
+}
+#btnRepeat.active {
+  color: #8cc3e6;
+}
+#btnSpeed {
+  font-size: 1.5rem;
+}

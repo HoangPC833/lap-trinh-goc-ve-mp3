@@ -1,3 +1,4 @@
+
 // Mythium Archive: https://archive.org/details/mythium/
 
 jQuery(function ($) {
@@ -265,6 +266,29 @@ jQuery(function ($) {
                     loadTrack(index);
                 }
             }),
+            // ✅ CHÈN 2 NÚT MỚI Ở ĐÂY
+btnSpeed = $('#btnSpeed').on('click', function () {
+    if (audio.playbackRate !== 2) {
+        audio.playbackRate = 2;
+        $(this).text('x1');
+    } else {
+        audio.playbackRate = 1;
+        $(this).text('x2');
+    }
+}),
+
+btnRepeat = $('#btnRepeat').on('click', function () {
+    audio.loop = !audio.loop;
+    $(this).toggleClass('active');
+}),
+
+// TIẾP THEO LÀ CÁI CŨ
+li = $('#plList li').on('click', function () {
+    var id = parseInt($(this).index());
+    if (id !== index) {
+        playTrack(id);
+    }
+}),
             li = $('#plList li').on('click', function () {
                 var id = parseInt($(this).index());
                 if (id !== index) {
