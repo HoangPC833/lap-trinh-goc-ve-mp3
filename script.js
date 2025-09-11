@@ -22,33 +22,33 @@ jQuery(function ($) {
         // initialize playlist and controls
         var index = 0,
             playing = false,
-            mediaPath = 'https://archive.org/download/mythium/',
+            mediaPath = 'https://archive.org/download/gap-mot-lan-it-di-mot-lan',
             extension = '',
             tracks = [{
                 "track": 1,
                 "name": "All This Is - Joe L.'s Studio",
                 "duration": "2:46",
-                "file": "JLS_ATI"
+                "file": "Anh còn nợ em"
             }, {
                 "track": 2,
                 "name": "The Forsaken - Broadwing Studio (Final Mix)",
                 "duration": "8:30",
-                "file": "BS_TF"
+                "file": "Cảm ơn anh đã không cưới em ngày xưa"
             }, {
                 "track": 3,
                 "name": "All The King's Men - Broadwing Studio (Final Mix)",
                 "duration": "5:01",
-                "file": "BS_ATKM"
+                "file": "Dancing with your ghost"
             }, {
                 "track": 4,
                 "name": "The Forsaken - Broadwing Studio (First Mix)",
                 "duration": "8:31",
-                "file": "BSFM_TF"
+                "file": "Hóa ra cô ấy là bạch nguyệt quang của anh"
             }, {
                 "track": 5,
                 "name": "All The King's Men - Broadwing Studio (First Mix)",
                 "duration": "5:05",
-                "file": "BSFM_ATKM"
+                "file": "Gặp một lần ít đi một lần"
             }, {
                 "track": 6,
                 "name": "All This Is - Alternate Cuts",
