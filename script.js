@@ -11,7 +11,7 @@ jQuery(function ($) {
             controls: [
                 'restart',
                 'play',
-                'progress',
+                'progress', 
                 'current-time',
                 'duration',
                 'mute',
@@ -22,33 +22,33 @@ jQuery(function ($) {
         // initialize playlist and controls
         var index = 0,
             playing = false,
-            mediaPath = 'https://archive.org/download/gap-mot-lan-it-di-mot-lan',
+            mediaPath = 'https://archive.org/download/idoncry12_202509/',
             extension = '',
             tracks = [{
                 "track": 1,
                 "name": "All This Is - Joe L.'s Studio",
                 "duration": "2:46",
-                "file": "Anh còn nợ em"
+                "file": "idoncry1"
             }, {
                 "track": 2,
                 "name": "The Forsaken - Broadwing Studio (Final Mix)",
                 "duration": "8:30",
-                "file": "Cảm ơn anh đã không cưới em ngày xưa"
+                "file": "idoncry12"
             }, {
                 "track": 3,
                 "name": "All The King's Men - Broadwing Studio (Final Mix)",
                 "duration": "5:01",
-                "file": "Dancing with your ghost"
+                "file": "idoncry123"
             }, {
                 "track": 4,
                 "name": "The Forsaken - Broadwing Studio (First Mix)",
                 "duration": "8:31",
-                "file": "Hóa ra cô ấy là bạch nguyệt quang của anh"
+                "file": "BSFM_ATKM"
             }, {
                 "track": 5,
                 "name": "All The King's Men - Broadwing Studio (First Mix)",
                 "duration": "5:05",
-                "file": "Gặp một lần ít đi một lần"
+                "file": "BS_ATKM"
             }, {
                 "track": 6,
                 "name": "All This Is - Alternate Cuts",
